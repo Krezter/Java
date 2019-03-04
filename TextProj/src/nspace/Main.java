@@ -17,7 +17,7 @@ public class Main {
 		String name[] = new String[100];
 		File f = new File("in.txt");
 		int count = 0;
-		
+
 		try {
 			FileReader fr = new FileReader(f);
 			Scanner scan = new Scanner(fr);
@@ -29,7 +29,7 @@ public class Main {
 		} catch (FileNotFoundException e) {
 			System.err.println(e);
 		}
-		
+
 		String sort[] = new String[100];
 		int num[] = new int[100];
 		boolean flag;
